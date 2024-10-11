@@ -1,0 +1,82 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  padding: 2rem;
+  border: 1px solid #d5d7de;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+}
+
+.todo-list-header {
+  display: flex;
+  margin: 0.3rem 0;
+}
+
+.todo-list-header > * {
+  padding: 0 1rem 0 0;
+}
+
+textarea {
+  resize: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  border: 1px solid #d5d7de;
+  color: #71728c;
+  font-size: 100%;
+  padding: 1rem;
+}
+
+button {
+  background: #5fcac6;
+  border: 1px solid #53aca9;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 87.5%;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+form label, form button {
+  margin: 0.5rem 0;
+  align-self: flex-start;
+}
+
+form > button {
+  padding: 0.6rem;
+  border-radius: 10px;
+}
+
+.status-text-todo {
+
+}
+
+.status-text-in-progress {
+
+}
+
+.status-text-done {
+
+}
+

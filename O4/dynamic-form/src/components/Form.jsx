@@ -63,7 +63,7 @@ export default function Form() {
     }
   }
 
-  // Sätt till formuläret så att input fälten fungerar och sidan inte laddas om vid keydown event
+  // För form elementet så att input fälten fungerar och sidan inte laddas om vid keydown event
   const handleSubmit = (e) => e.preventDefault();
 
   return(
